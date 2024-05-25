@@ -1,0 +1,16 @@
+1.	Combination: metrics_weight_adjiust_pso_topo_rand_swarm20
+•	Best fitness vs iterations: All runs start around 16 best fitness and converge around 100 iterations. However, there is a wide spread, and only run 7 reaches a best fitness of 6 at around 100 iterations. Other runs vary between 8 and 12, showing instability and fluctuations even until 1000 iterations.
+•	Distance to global optimum vs iterations: There is a significant spread, with runs starting around 25 distance and converging to the lowest point of 5 and the highest point of 15 at around 100 iterations. After convergence, at around 900 iterations, lower distance runs spike up heavily to 15 distance.
+•	Standard deviation of particle positions and mean velocity vs iterations: Both graphs show convergence patterns, but with huge spikes at around 1000 iterations, surpassing their converging levels. This suggests that the tuning of the algorithm and the choice of coefficients and weights may contribute to these spikes.
+
+2.	Combination: metrics_weight_adjiust_pso_topo_rand_swarm100
+•	Best fitness vs iterations: Similar to the previous combination, all runs converge slowly with a wide spread. At around 900 iterations, there is a spike observed in all runs.
+•	Distance to global optimum vs iterations: The runs start at a low distance of 8 at around 200 iterations and stay at 0, except for run 5, which stays at 1 distance. There is a smaller spike at the end compared to the other combinations.
+•	Standard deviation of particle positions and mean velocity vs iterations: Both graphs exhibit a normal pattern until the end, where all runs start to spike at 900 iterations, reaching a deviation of 2.5 at the end.
+
+3.	Combination: metrics_weight_adjiust_pso_topo_rand_swarm200
+•	Best fitness vs iterations: This combination shows a more normal pattern, with best fitness starting around 15 iterations and converging slowly around 200 iterations to 0, without spikes at the 1000 iteration mark.
+•	Distance to global optimum vs iterations: The distance starts at 40 and converges to 0 at 50 iterations for all runs, except for runs 1 and 7, which stop at 300 iterations due to a mechanism that halts the run if the best fitness hasn't improved.
+•	Standard deviation of particle positions and mean velocity vs iterations: Both graphs exhibit a normal convergence pattern, with run 1 and 7 behaving normally like the other runs.
+In summary, the combination metrics_weight_adjiust_pso_topo_rand_swarm200 shows more stable convergence patterns compared to the other combinations. It exhibits a smoother convergence of best fitness, distance to the global optimum, and standard deviation of particle positions and mean velocity. However, further analysis and experimentation may be required to fine-tune the algorithm and improve the stability and consistency of the results.
+

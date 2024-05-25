@@ -1,0 +1,13 @@
+In the implementation, the modulation index n was set to 1, based on the recommendation from the provided text. This choice is a balance between aggressive and conservative non-linear adjustments of the inertia weight. It ensures that the inertia weight decreases gradually, allowing for a balance between exploration and exploitation.
+
+Best Fitness Graph: Most runs converge steadily after 50-54 iterations. With a fitness range of 4 to 12, Run 3 achieves the best result, while Run 9 has the least optimal. The overall downward trend indicates the algorithm's capability to iteratively refine its solution.
+
+Distance to Global Optimum: Runs gravitate towards the global optimum early on. However, sudden deviations in Runs 4, 5, and 9 towards 1000 iterations suggest momentary diversions from the global optimum, likely due to the inertia weight's influence.
+
+Standard Deviation of Particle Positions: While most runs stabilize early, Runs 4, 5, and 9 exhibit drastic changes towards the end, indicating a sudden dispersion of particles in the search space, which could be attributed to the inertia weight's dynamic adjustments.
+
+Mean Velocity: The high initial velocities depict the swarm's explorative stance. Over time, the drop and eventual stabilization emphasize the swarm's shift to exploitation, ensuring fine-tuning around promising regions.
+
+Comparison with Other Experiments: Comparing with standard PSO and varying swarm sizes, the non-linear inertia weight adjustment demonstrates more consistent convergence patterns. The sudden deviations in some runs, though, suggest room for further tuning.
+
+Conclusion: The modified PSO, with dynamic inertia weight, cognitive weight of 2, and social weight of 2, strikes a better exploration-exploitation balance. Although exhibiting promising results, certain runs indicate the need for potential refinements

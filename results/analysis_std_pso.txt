@@ -1,0 +1,11 @@
+How variable are the runs for different initializations?
+The analysis of the best fitness vs iterations graph shows that the runs start at 10 best fitness and start converging at around 50 iterations. However, there is variability in the convergence behavior among the runs. Some runs reach a best fitness of 0, indicating that they have found the global optimum. However, some runs stay around 2.5-1 best fitness, suggesting that they may have converged to a local optimum.
+
+How many iterations are needed to converge approximately?
+The analysis of the distance to the global optimum vs iterations graph reveals that the runs start at 40 distance to the global optimum and start converging at around 20 iterations. Not all runs reach a distance of 0, indicating that not all of them converge to the global optimum. Some runs stay around 2 distance to the global optimum, suggesting that they may have converged to a suboptimal solution.
+
+Does the whole swarm converge towards the global optimum?
+The metrics diagram does not explicitly show whether the whole swarm converges towards the global optimum. However, based on the analysis of the best fitness and distance to the global optimum, it can be inferred that not all runs of the algorithm converge to the global optimum. Some runs reach a best fitness of 0 and a distance of 0, indicating that the entire swarm has converged towards the global optimum. However, some runs stay at higher fitness values and distances, suggesting that the swarm may have converged to suboptimal solutions.
+
+How close do the optimizations get?
+The analysis of the mean velocity vs iterations graph shows that most runs start at 55 mean velocity and quickly converge to 0 mean velocity at around 15 iterations. This indicates that the swarm's movement slows down as it approaches convergence. However, it is worth noting that run 10 stands out as it reaches 0 mean velocity on the first iteration, suggesting a rapid convergence compared to the other runs.

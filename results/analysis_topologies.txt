@@ -1,0 +1,14 @@
+Which connectivity performs best?
+Among the analyzed topologies, the "gbest" connectivity performs the best in terms of achieving lower best fitness values. Runs 1, 6, and 9 reach a best fitness of 0, indicating that they have found the global optimum. The other topologies, such as "rand," "ring," and "star," do not reach a best fitness of 0 and stay at higher fitness values.
+
+Which connectivity leads to a wider swarm?
+The "star" connectivity leads to a wider swarm compared to the other topologies. The best fitness vs iterations graph shows that all runs start with an average best fitness of 15 and converge around 80 iterations. However, none of the runs reach a best fitness of 0 and stay at 2.5-7.5 fitness values, indicating a wider spread of the swarm.
+
+Which connectivity converges faster?
+The "gbest" connectivity converges faster compared to the other topologies. The best fitness vs iterations graph shows that runs 1, 6, and 9 reach a best fitness of 0 at around 40 iterations. In contrast, the other topologies, such as "rand," "ring," and "star," converge more slowly, with convergence occurring around 100 iterations.
+
+Which connectivity produces the closest result?
+The "gbest" connectivity produces the closest result to the global optimum. Runs 1, 6, and 9 reach a best fitness of 0, indicating that they have found the global optimum. The other topologies do not reach a best fitness of 0, suggesting that they may have converged to suboptimal solutions.
+
+Which connectivity runs fastest and why?
+The "gbest" connectivity runs fastest among the analyzed topologies. The mean velocity vs iterations graph shows that the runs start with an average velocity of 30 and converge to 0 at around 20 iterations. In contrast, the other topologies show slower convergence speeds, with some runs reaching 0 velocity at the first iteration. The faster convergence of the "gbest" connectivity can be attributed to the efficient information sharing and exploitation of the global best position by all particles in the swarm.

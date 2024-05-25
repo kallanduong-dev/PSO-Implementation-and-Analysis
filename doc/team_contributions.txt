@@ -1,0 +1,14 @@
+Aryan:
+Aryan took on a coding role in the assignment. They actively participated in designing and implementing the PSO library, including the optimizers, initialization methods, and metric visualization. Additionally, they collaborated with Kallan and Vivek on debugging the code during the final stages of the project.
+
+Kallan:
+Kallan took a lead role in the coding aspect of the assignment. They contributed significantly to the development of the PSO library, including writing code for the optimizer class and working on swarm initialization. Kallan wrote the code in the PSO variants, run_experiments and the topologies files. Alongside Aryan and Vivek, Kallan played a pivotal role in troubleshooting and refining the code as the project neared completion.
+
+Vivek:
+Vivek actively participated in both coding and documentation tasks related to the PSO assignment. Their contributions included implementing standard PSO as defined in the paper by Bratton and Kennedy (2007). They also worked on swarm initialization methods. Vivek collaborated with the team in debugging and fine-tuning the code.
+
+Kiraat:
+Kiraat focused on the documentation aspect of the assignment. They were responsible for documenting the code for analysis, ensuring that the code was well-documented and easily understandable. Kiraat also played a crucial role in generating and formatting the analysis graphs.
+
+Anikait:
+Anikait was primarily responsible for the analysis and documentation of the experiments. They contributed by analyzing the metrics diagrams, comparing results, and providing insights into the findings. Anikait's efforts were instrumental in generating meaningful analysis reports for the experiments.

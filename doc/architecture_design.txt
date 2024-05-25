@@ -1,0 +1,13 @@
+The provided codebase offers a modular approach to Particle Swarm Optimization (PSO), a heuristic optimization technique. The architecture is divided into distinct modules, each with a specific responsibility:
+
+Optimization Problems: This module defines optimization challenges. The AckleyFunction class is an example, representing a multi-modal function. This modularity allows for easy addition of other optimization problems.
+
+PSO Variants: Central to the architecture is the PSO implementation. The base PSO class encapsulates core PSO logic, while PSOWithWeight offers a variant with inertia weight adjustments. The Particle class, integral to PSO, represents individual solution candidates.
+
+Topologies: PSO's efficacy often depends on particle interaction topologies. The separate topologies allow particles to share information in various patterns, offering flexibility in swarm behavior.
+
+Metrics and Visualization: To assess and visualize PSO's performance, this module provides plotting functions. It tracks metrics like best fitness and particle velocities, aiding in understanding and fine-tuning the algorithm.
+
+Run Experiments: This module operationalizes the above components. By setting parameters like swarm size and topology, users can run diverse PSO experiments and visualize results.
+
+The architecture's rationale lies in its modularity and separation of concerns. Each module focuses on a singular aspect of PSO, ensuring clarity and ease of modification. This design facilitates scalability, allowing the seamless integration of additional problems, topologies, or PSO variants.
