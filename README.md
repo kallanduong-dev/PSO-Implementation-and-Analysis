@@ -1,4 +1,4 @@
-#About the project
+# About the project
 This was a university group project that I completed. We were tasked with designing a library, implementing particle swarm optimisation methods 
 and investigating PSO variants. The PSO library is able to solve real valued problem
 with different numbers of dimensions (parameters to be optimised) by maximising a fitness
